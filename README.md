@@ -489,7 +489,6 @@ Money values should be stored and calculated using `BigDecimal` instead of `doub
 - PDF invoice generation is not included.
 - Pagination is not added for large customer or invoice lists.
 - GST logic only supports CGST and SGST at fixed 9% rates.
-- Revenue currently sums all invoices, including cancelled invoices.
 
 ## Future Improvements
 
@@ -501,7 +500,6 @@ Money values should be stored and calculated using `BigDecimal` instead of `doub
 - Add email invoice feature.
 - Add frontend using React or Angular.
 - Add unit tests and integration tests.
-- Improve invoice number generation using a dedicated sequence table.
 
 ## Project Structure
 
